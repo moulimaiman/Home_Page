@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico">
+</head>
+<style>
+   
+</style>
+<script>
+    var h2 = m2 = s2 = 0 ; 
+    function timer() {
+        var mydate = new Date();
+        h1 = mydate.getHours();
+        m1 = mydate.getMinutes();
+        s1 = mydate.getSeconds();
+        if ( h1 < 10 ) { h1 = "0" + h1 ; }
+        if ( m1 < 10 ) { m1 = "0" + m1 ; }
+        if ( s1 < 10 ) { s1 = "0" + s1 ; }
+document.getElementById("dateid").innerHTML = h1 + " : " + m1 + " : " + s1 ; 
+        
+    }
+    setInterval( timer , 1000 ) ;
+</script>
+<body>
+    <div>
+        <fieldset class="sites">
+            <h3>
+                Home Page 
+            </h3>
+            <hr style="margin-bottom : 17px ;">
+            <section>
+                <a href="https://moulimaiman.github.io/Chat_Maths/">Chat_Math</a>
+            </section>
+            <section>
+                <a href="https://moulimaiman.github.io/GAMEscorer/">Game</a>
+            </section>
+            <section>
+                <a href="https://moulimaiman.github.io/X_O/">X_O</a>
+            </section>
+            <hr>
+            <h4> The Scripts </h4>
+            <section>
+                <a href="https://github.com/moulimaiman/Script_Programming"> The Scripts In GITHUB </a>
+            </section>
+            <hr style="margin-bottom : 20px  ;">
+            <div>
+                <a href="https://www.linkedin.com/in/aiman-moulim-1688b3315" class="imga"> <img src="LinkedIn.jpg" class="dimg"> </a>
+                <a href="https://github.com/moulimaiman" class="imga"> <img src="github.jpg" class="dimg"> </a>
+                <a href="https://www.instagram.com/moulim_aiman?igsh=MTFraWhhN3h3aW9jYw==" class="imga"> <img src="Instagram.jpg" class="dimg"> </a>
+                <a href="https://www.facebook.com/ensias.etu.cscmc" class="imga"> <img src="facebook.jpg" class="dimg"> </a>
+            </div>
+          <hr style="margin-bottom : 20px ; margin-top : 15px ;">
+          Aiman Moulim ©
+        </fieldset>
+        <hr style="margin-top : 50px ;">
+       <div style="display : flex ; justify-content:  space-between ; ">
+           <p id="dateid" style="font-family : Monaco ; "></p>
+       </div> 
+    </div>
+    
+    
+</body>
+</html>

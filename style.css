@@ -1,0 +1,51 @@
+ * {
+        transition: 0.75s ; 
+    }
+    body {
+        background-color:  #211a3e ; 
+        display : flex ;
+        justify-content : center ;
+        align-items : center ; 
+        color : white ;
+        padding-top : 100px ;
+    }
+    fieldset {
+        padding : 17px ; 
+        padding-top : 5px ; 
+        border : groove 3px white ;
+        min-width:  450px ; 
+        text-align : center ;
+        border-radius : 23px ; 
+    }
+   
+    h3:hover {
+        color : ##ffa995 ; 
+        letter-spacing : 4px ; 
+    }
+    section {
+        border-radius:  100px ; 
+        min-height: 50px ; 
+        border : 2px solid #15a1ff ;
+        margin-bottom : 23px ; 
+        display : flex ;
+        justify-content:  center ;
+        align-items:  center ;   
+   }
+   section:hover {
+       background:  #6affcb ;
+       color : black ; 
+   }
+    a {
+        color : white ;
+        text-decoration : none ;
+        font-family:  Monaco ;
+    }
+    .imga {
+        margin-left : 20px ;
+        margin-right:  20px ;
+    }
+    .dimg {
+        width : 40px ;
+        height : 40px ;
+        border-radius:  100% ;
+    }
